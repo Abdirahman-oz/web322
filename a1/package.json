@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdirahman-oz/web322.git"
+  },
+  "author": "Abdirahman",
   "license": "ISC"
 }
