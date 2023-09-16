@@ -12,7 +12,7 @@
 const express = require('express');
 const app = express();
 
-const HTTP_PORT = process.env.Port || 3000;
+const HTTP_PORT = process.env.Port || 8000;
 
 app.get(('/'),(req,res)=>{
 res.send('Abdirahman Osamn- 115185175')
@@ -21,6 +21,6 @@ res.send('Abdirahman Osamn- 115185175')
 
 app.listen(HTTP_PORT,() =>{
 
-    console.log('Listening for requests on port 3000');
+    console.log('Listening for requests on port 8000');
 
 });
