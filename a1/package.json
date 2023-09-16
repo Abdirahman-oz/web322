@@ -12,5 +12,8 @@
     "url": "git+https://github.com/Abdirahman-oz/web322.git"
   },
   "author": "Abdirahman",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }

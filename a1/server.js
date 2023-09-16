@@ -4,19 +4,23 @@
 *  No part of this assignment has been copied manually or electronically from any other source
 *  (including web sites) or distributed to other students.
 * 
-*  Name: Abdirahman Osman Student ID: 115185175 Date: ________________
+*  Name: Abdirahman Osman Student ID: 115185175 Date: 2023-09-15
 *
 *  Online (Cyclic) URL: https://tasty-swimsuit-pig.cyclic.app/
 *
 ********************************************************************************/ 
-const http = require('http');
+const express = require('express');
+const app = express();
 
-const server = http.createServer((req, res) => {
-    res.setHeader('Content-Type', 'text/plain');
-    res.write('Abdirahman Osman -115185175');
-    res.end();
-});
+const HTTP_PORT = process.env.Port || 3000;
 
-server.listen(8000, 'localhost', () => {
-    console.log('Listening for requests on port 8000');
+app.get(('/'),(req,res)=>{
+res.send('Abdirahman Osamn- 115185175')
+
+})
+
+app.listen(HTTP_PORT,() =>{
+
+    console.log('Listening for requests on port 3000');
+
 });
