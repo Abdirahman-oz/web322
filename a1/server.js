@@ -15,7 +15,7 @@ const app = express();
 const HTTP_PORT = process.env.Port || 8000;
 
 app.get(('/'),(req,res)=>{
-res.send('Abdirahman Osamn- 115185175')
+res.send('Abdirahman Osman- 115185175')
 
 })
 
